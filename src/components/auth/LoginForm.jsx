@@ -244,7 +244,8 @@ const LoginForm = () => {
       </button>
 
       {/* Quick Test Buttons */}
-      {process.env.NODE_ENV === 'development' && (
+      {/* {process.env.NODE_ENV === 'development' &&  */}
+      (
         <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-blue-500/10 to-indigo-500/10 
                     border border-slate-200 dark:border-slate-700 backdrop-blur-xl p-5">
           <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-indigo-500/5"></div>
@@ -276,7 +277,8 @@ const LoginForm = () => {
             Fill credentials for testing
           </p>
         </div>
-      )}
+      )
+      {/* } */}
     </form>
   );
 };

@@ -55,7 +55,7 @@ const Login = () => {
               
               <div className="relative rounded-3xl overflow-hidden border border-white/10 backdrop-blur-xl shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-700">
                 <img 
-                  src="/src/assets/photo2.jpg" 
+                  src="/photo2.jpg" 
                   alt="ELD Pro Fleet Management"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '500px', maxHeight: '600px', objectFit: 'cover' }}

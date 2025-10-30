@@ -93,7 +93,7 @@ const Register = () => {
               
               <div className="relative rounded-3xl overflow-hidden border border-white/10 backdrop-blur-xl shadow-2xl transform group-hover:scale-[1.02] transition-transform duration-700">
                 <img 
-                  src="/src/assets/photo5.jpg" 
+                  src="/photo5.jpg" 
                   alt="ELD Pro Registration"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '400px', maxHeight: '500px', objectFit: 'cover' }}

@@ -4,7 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import EmailVerification from './EmailVerification';
 
-const API_BASE = 'http://localhost:8000/api';
+const VITE_API_BASE_URL = import.meta.env.VITE_API_URL;
+const API_BASE = VITE_API_BASE_URL || 'http://localhost:8000/api'
 
 const RegisterFormWithVerification = () => {
   const navigate = useNavigate();
